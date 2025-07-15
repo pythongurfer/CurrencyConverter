@@ -1,0 +1,2 @@
+# CurrencyConverter
+Spring Java app
