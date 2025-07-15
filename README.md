@@ -1,5 +1,9 @@
 # CurrencyConverter
 
+## DEMO
+<img src="assets/demo.png" alt="Demo animation" width="600"/>
+
+
 ## Architectural Deep Dive
 This application is built using a layered, Clean Architecture. This isn't just a suggestion; it's a professional standard that ensures the system is maintainable, scalable, and testable.
 
@@ -25,13 +29,13 @@ Model/Domain Layer (@Document): These are the POJOs (Plain Old Java Objects) tha
 ## How It's Useful & What It Demonstrates
 Building this project is incredibly useful because it showcases a suite of skills that are in high demand for backend and full-stack developers. When you put this on your resume or GitHub, you're not just showing a simple app; you're proving you understand and can implement:
 
-✅ Microservice Design: You've built a small, focused, independently deployable service that does one thing well. This is the cornerstone of modern cloud-native development.
+-**Microservice Design**: You've built a small, focused, independently deployable service that does one thing well. This is the cornerstone of modern cloud-native development.
 
-✅ Third-Party API Integration: Virtually no modern application exists in a vacuum. You've demonstrated the ability to securely call an external REST API, parse its JSON response, and integrate that data into your own application's logic. This is a daily task for many developers.
+-**Third-Party API Integration** Virtually no modern application exists in a vacuum. You've demonstrated the ability to securely call an external REST API, parse its JSON response, and integrate that data into your own application's logic. This is a daily task for many developers.
 
-✅ Cloud Database Management: You're not using a local, toy database. You've configured, connected to, and used a production-grade, managed cloud database service (MongoDB Atlas). This shows familiarity with DBaaS (Database-as-a-Service) and NoSQL concepts.
+-**Cloud Database Management**: You're not using a local, toy database. You've configured, connected to, and used a production-grade, managed cloud database service (MongoDB Atlas). This shows familiarity with DBaaS (Database-as-a-Service) and NoSQL concepts.
 
-✅ Full End-to-End Logic: You've shown that you can handle the full lifecycle of a request:
+-**Full End-to-End Logic**: You've shown that you can handle the full lifecycle of a request:
 
 Define a RESTful API contract (POST /api/conversions).
 
@@ -43,6 +47,6 @@ Persist the final state into a database.
 
 Expose other endpoints (GET, DELETE) to manage that data.
 
-✅ Professional Best Practices: By using Dependency Injection (injecting services/repositories via the constructor), DTOs (ConversionRequest), and input validation, you're writing code that is clean, maintainable, and robust, just like in a professional environment.
+-**Professional Best Practices**: By using Dependency Injection (injecting services/repositories via the constructor), DTOs (ConversionRequest), and input validation, you're writing code that is clean, maintainable, and robust, just like in a professional environment.
 
 In essence, this project serves as a perfect, real-world "slice" of what a backend developer does. It's a tangible proof of competence that goes far beyond simple programming exercises.
